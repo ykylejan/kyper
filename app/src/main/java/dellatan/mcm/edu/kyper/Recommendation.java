@@ -1,8 +1,8 @@
 package dellatan.mcm.edu.kyper;
 
 public class Recommendation {
-    private String recommendationType;
-    private int recommendationID;
+    private String recommendationType; //venue or service
+    private int recommendationID; // ID sa reccommendation
     private String recommendationName;
     private String recommendationLocation;
     private int recommendationContact;

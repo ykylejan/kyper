@@ -9,8 +9,9 @@ public class Event {
     private String eventType;
     private String eventCelebrant;
     private int eventGuests;
+    private String eventVenue;
 
-    public Event (int id, String name, int date, int time, double budget, String type, String celebrant, int guests){
+    public Event (int id, String name, int date, int time, double budget, String type, String celebrant, int guests, String venue){
         eventID = id;
         eventName = name;
         eventDate = date;
@@ -19,6 +20,7 @@ public class Event {
         eventType = type;
         eventCelebrant = celebrant;
         eventGuests = guests;
+        eventVenue = venue;
     }
 
     public int getEventID() {
@@ -83,4 +85,12 @@ public class Event {
     public void setEventGuests(int eventGuests) {
         this.eventGuests = eventGuests;
     }
+
+    public String getEventVenue() {
+        return eventVenue;
+    }
+    public void setEventVenue(String eventVenue) {
+        this.eventVenue = eventVenue;
+    }
+
 }
